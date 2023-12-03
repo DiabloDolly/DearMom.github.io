@@ -1,0 +1,36 @@
+body {
+  align-items: center;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(91, 173, 254, 0.46) 0%,
+    rgba(91, 224, 254, 0.46) 47.2%,
+    rgba(170, 254, 235, 0.43) 90%
+  );
+  font-family: "Dosis", sans-serif;
+  display: flex;
+  font-display: swap;
+  height: inherit;
+  justify-content: center;
+}
+
+.Author {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.7;
+  font-family: monospace;
+}
+
+.mom {
+  font-family: cursive;
+  color: rgb(142, 70, 58);
+}
+
+.love {
+  font-family: cursive;
+  color: rgb(142, 70, 58);
+}

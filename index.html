@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dear Mom</title>
+    <style>
+      body {
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .heart {
+        font-size: 10rem;
+        animation: heart 0.5s infinite alternate linear;
+      }
+
+      @keyframes heart {
+        from {
+          transform: scale(0.7);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="melody.gif" width="300" />
+    <div class="mom">Hi Mom,</div>
+    <div class="heart">💛</div>
+    <div class="love">I love you.</div>
+    <footer class="Author">Coded by Luz Zavala</footer>
+  </body>
+</html>
